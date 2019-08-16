@@ -1,0 +1,51 @@
+ body {
+   background-color: black;
+ }
+
+
+ /* NAV */
+
+ .container-flex {
+   margin: 15px;
+   display: flex;
+   justify-content: space-evenly;
+ }
+
+ /* .navbar{
+   display:flex;
+justify-content:space-evenly;
+ } */
+
+ .navbar-brand {
+   /* justify-content: left; */
+   font-size: 60px;
+ }
+
+ .nav-item {
+   font-size: 20px;
+   /* display:block; */
+ }
+
+ .navbar_list {
+   display: flex;
+   justify-content: right;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ /* @media (min-width: 576px) { ... }
+
+@media (min-width: 768px) { ... }
+
+@media (min-width: 992px) { ... }
+
+@media (min-width: 1200px) { ... } */
