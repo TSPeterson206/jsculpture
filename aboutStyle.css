@@ -1,3 +1,48 @@
-body {
-  background-color:green;
+body{
+  background:black;
+}
+
+/* NAV */
+
+.container-flex {
+  margin: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .navbar{
+  display:flex;
+justify-content:space-evenly;
+} */
+
+.navbar-brand {
+  /* justify-content: left; */
+  font-size: 60px;
+}
+
+.nav-item {
+  font-size: 20px;
+  /* display:block; */
+}
+
+.navbar_list {
+  display: flex;
+  justify-content: right;
+}
+
+.aboutRow{
+height:80vh;
+background-color:white;
+}
+
+.aboutImage{
+  background-image:url("./images/Alan_LeQuire_Seated_Figure_Reading_486x480.jpg");
+height:100vh;
+}
+
+.aboutText{
+  font-size:30px;
+  color:white;
+  background-color:grey;
+
 }
