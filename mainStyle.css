@@ -17,21 +17,63 @@ justify-content:space-evenly;
  } */
 
  .navbar-brand {
-   /* justify-content: left; */
-   font-size: 60px;
+  font-family: 'Condiment';
+       font-size: 60px;
+   float: left;
  }
 
  .nav-item {
    font-size: 20px;
    /* display:block; */
+   float: right;
  }
 
  .navbar_list {
    display: flex;
-   justify-content: right;
+   justify-content: space-between;
  }
 
+/* SPLASH PAGE CONTAINER */
 
+.splashContainer{
+  border-radius:25px;
+
+}
+.splashRow1, .splashRow2 {
+  display:flex;
+background-color:grey;
+height:40vh;
+}
+
+.splashRow1 {
+  background-image:url("./images/modesty-photo-u1.jpg");
+  text-align:center;
+
+}
+
+.row1Text, .row2Left, .row2Right {
+font-size:50px;
+color:white;
+font-family: 'Condiment';
+padding-top:20%;
+}
+
+.splashCol1{
+  border-radius:25px;
+  text-align:center;
+
+  background-image:url("./images/hair-sculpture-1.jpeg");
+  background-size:contain;
+
+}
+
+.splashCol2{
+  text-align:center;
+
+  background-image:url("./images/Coderch-Malavia-sculptors-16.jpg");
+
+
+}
 
 
 
