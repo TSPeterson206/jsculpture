@@ -5,79 +5,106 @@
 
  /* NAV */
 
- .container-flex {
-   margin: 15px;
+ .nav-container {
    display: flex;
-   justify-content: space-evenly;
  }
 
- /* .navbar{
-   display:flex;
-justify-content:space-evenly;
- } */
+ .navbar-row {
+   height: 25vh;
+   justify-content: space-evenly;
+   width:100%;
+
+ }
 
  .navbar-brand {
-  font-family: 'Condiment';
-       font-size: 60px;
-   float: left;
+   font-family: 'Condiment';
+   font-size: 60px;
+   /* float: left; */
+   padding-top: 100px;
+   padding-left:150px;
  }
 
  .nav-item {
-   font-size: 20px;
+   font-size: 30px;
+   font-family: 'Condiment';
+
    /* display:block; */
-   float: right;
+   padding-left: 25px;
+   padding-right: 25px;
  }
 
- .navbar_list {
+ .navbar-list {
    display: flex;
-   justify-content: space-between;
+   /* float: right; */
+   /* justify-content: space-evenly; */
+   padding-top: 100px;
+   padding-right:150px;
+   /* margin-right:100px; */
  }
 
-/* SPLASH PAGE CONTAINER */
+ /* SPLASH PAGE CONTAINER */
 
-.splashContainer{
-  border-radius:25px;
+ .splashContainer {
+   border-radius: 45px;
 
-}
-.splashRow1, .splashRow2 {
-  display:flex;
-background-color:grey;
-height:40vh;
-}
+ }
 
-.splashRow1 {
-  background-image:url("./images/modesty-photo-u1.jpg");
-  text-align:center;
+ .splashRow1,
+ .splashRow2 {
+   display: flex;
+   /* background-color:grey; */
+   height: 40vh;
+   border-radius: 45px;
 
-}
+ }
 
-.row1Text, .row2Left, .row2Right {
-font-size:50px;
-color:white;
-font-family: 'Condiment';
-padding-top:20%;
-}
+ .splashRow1 {
+   background-image: url("./images/modesty-photo-u1.jpg");
+   text-align: center;
 
-.splashCol1{
-  border-radius:25px;
-  text-align:center;
+ }
 
-  background-image:url("./images/hair-sculpture-1.jpeg");
-  background-size:contain;
+ .row1Text {
+   margin:0 auto;
+   font-size: 50px;
+   color: white;
+   font-family: 'Condiment';
+   padding-top: 15%;
+ }
 
-}
+ .row2Left,
+ .row2Right {
+   font-size: 50px;
+   color: white;
+   font-family: 'Condiment';
+   padding-top: 25%;
+ }
 
-.splashCol2{
-  text-align:center;
+ .splashCol1 {
+   margin: 15px;
+   border-radius: 25px;
+   text-align: center;
+   background-image: url("./images/hair-sculpture-1.jpeg");
+   background-size: contain;
 
-  background-image:url("./images/Coderch-Malavia-sculptors-16.jpg");
+ }
 
+ .splashCol2 {
+   margin: 15px;
+   text-align: center;
+   border-radius: 25px;
+   background-image: url("./images/Coderch-Malavia-sculptors-16.jpg");
+ }
 
-}
+ footer {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+ }
 
-
-
-
+ .footerItem {
+   margin: 20px;
+ }
 
 
 
