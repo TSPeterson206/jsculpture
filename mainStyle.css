@@ -12,7 +12,7 @@
  .navbar-row {
    height: 25vh;
    justify-content: space-evenly;
-   width:100%;
+   width: 100%;
 
  }
 
@@ -21,7 +21,8 @@
    font-size: 60px;
    /* float: left; */
    padding-top: 100px;
-   padding-left:150px;
+   padding-left: 150px;
+
  }
 
  .nav-item {
@@ -38,7 +39,7 @@
    /* float: right; */
    /* justify-content: space-evenly; */
    padding-top: 100px;
-   padding-right:150px;
+   padding-right: 150px;
    /* margin-right:100px; */
  }
 
@@ -46,7 +47,6 @@
 
  .splashContainer {
    border-radius: 45px;
-
  }
 
  .splashRow1,
@@ -56,30 +56,47 @@
    height: 40vh;
    border-radius: 45px;
 
+   text-align: center;
+   vertical-align: middle;
+   /* line-height: 90px; */
+
+   justify-content: center;
+   /* align-items: center; */
  }
 
  .splashRow1 {
    background-image: url("./images/modesty-photo-u1.jpg");
    text-align: center;
+   vertical-align: middle;
 
+   height: 40vh;
+ }
+
+ .splashRow2 {
+   height: 40vh;
  }
 
  .row1Text {
-   margin:0 auto;
    font-size: 50px;
    color: white;
    font-family: 'Condiment';
-   padding-top: 15%;
- }
+   line-height:400px;
+   }
 
  .row2Left,
  .row2Right {
    font-size: 50px;
    color: white;
    font-family: 'Condiment';
-   padding-top: 25%;
+   line-height:400px;
+   /* padding-top: 25%; */
  }
 
+ .box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
  .splashCol1 {
    margin: 15px;
    border-radius: 25px;
