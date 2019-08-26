@@ -19,28 +19,22 @@ body {
 .navbar-brand {
   font-family: 'Condiment';
   font-size: 60px;
-  /* float: left; */
   padding-top: 100px;
   padding-left: 150px;
-
+   color:white;
 }
 
 .nav-item {
   font-size: 30px;
   font-family: 'Condiment';
-
-  /* display:block; */
   padding-left: 25px;
   padding-right: 25px;
 }
 
 .navbar-list {
   display: flex;
-  /* float: right; */
-  /* justify-content: space-evenly; */
   padding-top: 100px;
   padding-right: 150px;
-  /* margin-right:100px; */
 }
 
 /* INDIVIDUAL SCULPTURE BUBBLE */
