@@ -7,6 +7,9 @@ body {
 
 .nav-container {
   display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 }
 
 .navbar-row {
@@ -21,7 +24,7 @@ body {
   font-size: 60px;
   padding-top: 100px;
   padding-left: 150px;
-   color:white;
+  text-decoration: none;
 }
 
 .nav-item {
@@ -33,17 +36,34 @@ body {
 
 .navbar-list {
   display: flex;
-  padding-top: 100px;
-  padding-right: 150px;
+  position: relative;
+  left: 300px;
+  top: 100px;
+  right: 150px;
+}
+
+a {
+  color: white;
 }
 
 /* INDIVIDUAL SCULPTURE BUBBLE */
 
+.individualImage{
+  width:100%;
+  border-radius:25px;
+  /* height:100%; */
+  /* background-image: url("./images/Sculpture1/IMG_1258.JPG"); */
+  /* background-size:contain; */
+}
+
+.individualSculpture{
+  position: relative;
+   top: 250px;
+}
 .sculptureRow{
    text-align: center;
    vertical-align: middle;
-   height: 40vh;
-   height:300px;
+   height: 80vh;
 }
 
 .sculptureName{
@@ -56,13 +76,20 @@ body {
 h3 {
   text-align:center;
   font-size:40px;
-  color:black;
+  color:white;
+  font-family: 'Condiment';
+
 }
 
 .sculptureRow{
 
 }
 
+.individualtitle{
+  font-size:40px;
+  color:white;
+  /* float:bottom; */
+}
 .individualDescription{
 font-size:30px;
 color:white;
@@ -74,42 +101,182 @@ font-family:Arial, Helvetica, sans-serif;
     height: auto;
 }
 
-.sculptureRow1{
-  background-image: url("./images/Alan_LeQuire_Seated_Figure_Reading_486x480.jpg");
+/* CAROUSEL */
+
+html, body, main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.sculptureRow2{
-  background-image: url("./images/whooshungry_orig.jpg");
+#carousel {
+  position: relative;
+  height: 400px;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+#carousel div {
+  position: absolute;
+  transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+  opacity: 1;
+}
+#carousel div img {
+  width: 400px;
+  transition: width 1s;
+}
+#carousel div.hideLeft {
+  left: 0%;
+  opacity: 0;
+  transform: translateY(50%) translateX(-50%);
+}
+#carousel div.hideLeft img {
+  width: 200px;
+}
+#carousel div.hideRight {
+  left: 100%;
+  opacity: 0;
+  transform: translateY(50%) translateX(-50%);
+}
+#carousel div.hideRight img {
+  width: 200px;
+}
+#carousel div.prev {
+  z-index: 5;
+  left: 30%;
+  transform: translateY(50px) translateX(-50%);
+}
+#carousel div.prev img {
+  width: 300px;
+}
+#carousel div.prevLeftSecond {
+  z-index: 4;
+  left: 15%;
+  transform: translateY(50%) translateX(-50%);
+  opacity: 0.7;
+}
+#carousel div.prevLeftSecond img {
+  width: 200px;
+}
+#carousel div.selected {
+  z-index: 10;
+  left: 50%;
+  transform: translateY(0px) translateX(-50%);
+}
+#carousel div.next {
+  z-index: 5;
+  left: 70%;
+  transform: translateY(50px) translateX(-50%);
+}
+#carousel div.next img {
+  width: 300px;
+}
+#carousel div.nextRightSecond {
+  z-index: 4;
+  left: 85%;
+  transform: translateY(50%) translateX(-50%);
+  opacity: 0.7;
+}
+#carousel div.nextRightSecond img {
+  width: 200px;
 }
 
-.sculptureRow3{
-  background-image: url("./images/modesty-photo-u1.jpg");
+.buttons {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
 }
 
-.sculptureRow4{
-  background-image: url("./images/louvre-ange-rappelant-sur-une.jpg");
+/*# sourceMappingURL=individualSculptures.css.map */
+
+/* RESPONSIVENESS */
+
+@media (max-width: 450px) {
+  .navbar-brand {
+    font-size: 42px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin: 0 auto;
+    float: none;
+    margin-top: 30px;
+    padding: 0px;
+  }
+
+  .navbar-row {
+    height: 15vh;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .navbar-list {
+    text-align: center;
+    display: inline-block;
+    float: none;
+    padding: 0px;
+
+    left: 0px;
+    top: 0px;
+    right: 0px;
+  }
+
+  .nav-item {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .individualSculpture {
+    position: relative;
+    top: 18vh;
+  }
+
 }
 
-.sculptureRow5{
-  background-image: url("./images/johnson-tsang-surreal-face-sculptures-2.jpg");
-}
+@media (max-width: 1050px) and (min-width: 451px) {
+  .navbar-brand {
+    position: relative;
+    top: 40%;
+    font-size: 80px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin: 0 auto;
+    float: none;
+    /* margin-top: 30px; */
+    padding: 0px;
+    width: 100%;
+  }
 
-.sculptureRow6{
-  background-image: url("./images/hair-sculpture-1.jpeg");
-}
+  .navbar-row {
+    height: 15vh;
+    text-align: center;
+    margin: 0 auto;
+  }
 
-.sculptureRow7{
-  background-image: url("./images/gen-press_giacometti_dog_custom-cf6272bcbf6d40fccf9d2459e5a22b180caf1a87-s800-c85.jpg");
-}
+  .navbar-list {
+      position: relative;
+      /* top: 80%; */
+      /* right: 35%; */
+      text-align: center;
+      display: inline-block;
+      float: none;
+      padding: 0px;
+      left: 0px;
+      right: 0px;
+      text-align: center;
+      display: inline-block;
+      float: none;
+      padding: 0px;
+    }
+  }
 
-.sculptureRow8{
-  background-image: url("./images/f3ce2d0cc1dee76d5a64635e66d1db3a7e9426b1_1100.png");
-}
+  .nav-item {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 
-.sculptureRow9{
-  background-image: url("./images/TheBallerina.jpg");
-}
-
-.sculptureRow10{
-  background-image: url("./images/Michael\ Alfano\ -\ Figurative\ and\ surrealistic\ sculptures\ -\ Tutt\'Art@\ \ \(31\).jpg");
+  .splashContainer {
+    position: relative;
+    top: 25vh;
+  }
 }
