@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="../individualSculptures.css">
-    <link href='https://fonts.googleapis.com/css?family=Condiment' rel='stylesheet'>
-    <script defer src="./mainScript.js">
-    </script>
-    <title>John Smith Sculptures</title>
-</head>
-<body>
 
-    <nav class="navbar navbar-expand-lg nav-container">
-        <div class="row navbar-row">
-            <span class="navbar-brand">
-              <a href="../index.html">John Smith Sculpting</a>
-            </span>
-            <span class="navbar-list">
-              <a class="nav-item" href="../allSculptures.html">Sculptures <span class="sr-only">(current)</span></a>
-              <a class="nav-item" href="../about.html">About</a>
-              <a class="nav-item" href="../contact.html">Contact</a>
-            </span>
-        </div>
-      </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=>, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="../individualSculptures.css">
+  <link href='https://fonts.googleapis.com/css?family=Condiment' rel='stylesheet'>
+  <script defer src="../mainScript.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>John Smith Sculptures</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg nav-container">
+    <div class="row navbar-row">
+      <div class="navbar-brand">
+        <a href="../index.html">John Smith Sculpting</a>
+      </div>
+      <span class="navbar-list">
+        <a class="nav-item" href="../allSculptures.html">Sculptures <span class="sr-only">(current)</span></a>
+        <a class="nav-item" href="../about.html">About</a>
+        <a class="nav-item" href="../contact.html">Contact</a>
+      </span>
+    </div>
+  </nav>
 
   <div class="container individualSculpture">
-    <h3>TEST SCULPTURE</h3>>
-
     <div class="row sculptureRow">
-      <span class="col-lg-6 individualImage"><img
-          src="./images/Alan_LeQuire_Seated_Figure_Reading_486x480.jpg"></img></span>
+      <div class="col-lg-6 individualImage1Column">
+        <h3 class="individualTitle">Sculpture Title</h3>
+
+        <img class="individualImage" src="../images/Sculpture6/IMG_1276.JPG"></img>
+      </div>
       <span class="col-lg-6 individualDescription">Night Bird
         Obsidian, quartz crystal, and polycarbonate. 1992. 9″ high with base.
         I carved Night Bird in half of a boulder of obsidian from Central Oregon. The smooth, dark, fast-moving,
@@ -42,16 +44,50 @@
         I still have the other half of the boulder and it, just like Night Bird, is jet black with rusty red streaks.
         Photo by Stuart Dee</span>
     </div>
+  </div>
+  <!-- CAROUSEL -->
+<div class="container carouselContainer">
+  <div class="row">
+    <div class="col-lg-12">
+  <div id="carousel">
 
-    <!-- CAROUSEL -->
-      <div class="row sculptureRow">
-            <img class="addImages d-block w-100" src="./images/Coderch-Malavia-sculptors-16.jpg" alt="First slide">
-            <img class="addImages d-block w-100" src="./images/hair-sculpture-1.jpeg" alt="Second slide">
-            <img class="addImages d-block w-100" src="./images/modesty-photo-u1.jpg" alt="Third slide">
-      </div>
+    <div class="hideLeft carouselPicture">
+      <img src="../images/Sculpture6/IMG_1277.JPG">
     </div>
 
+    <div class="prevLeftSecond carouselPicture">
+      <img src="../images/Sculpture6/IMG_1278.JPG">
+    </div>
 
+    <div class="prev carouselPicture">
+      <img src="../images/Sculpture6/IMG_1279.JPG">
+    </div>
+
+    <div class="selected carouselPicture">
+      <img src="../images/Sculpture6/IMG_1280.JPG">
+    </div>
+
+    <div class="next carouselPicture">
+      <img src="../images/Sculpture6/IMG_1281.JPG">
+    </div>
+
+    <div class="nextRightSecond">
+       <img src="../images/Sculpture6/IMG_3728.JPG">
+     </div>
+
+     <div class="hideRight">
+       <img src="../images/Sculpture6/IMG_3729.JPG">
+     </div>
+
+  </div>
+</div>
+  </div>
+    
+
+     <div class="buttons">
+        <button id="prev">Prev</button>
+        <button id="next">Next</button>
+      </div>
 
   </div>
 

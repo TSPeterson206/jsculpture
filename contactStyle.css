@@ -158,12 +158,24 @@ footer {
   }
 
   .nav-item {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .splashContainer {
     position: relative;
     top: 25vh;
   }
+}
+
+@media (max-width: 1050px) and (min-width: 451px) and (orientation:landscape){
+  .carouselContainer {
+    position:relative;
+    top:80%
+  }
+
+  .navbar-brand {
+    top: 100%;
+  }
+
 }
