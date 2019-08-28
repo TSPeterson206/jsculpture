@@ -53,7 +53,7 @@ a {
   border-radius:25px;
   /* height:100%; */
   /* background-image: url("./images/Sculpture1/IMG_1258.JPG"); */
-  /* background-size:contain; */
+  background-size:contain;
 }
 
 .individualSculpture{
@@ -101,6 +101,10 @@ font-family:Arial, Helvetica, sans-serif;
     height: auto;
 }
 
+.carouselContainer{
+  position:relative;
+}
+
 /* CAROUSEL */
 
 html, body, main {
@@ -114,8 +118,9 @@ html, body, main {
   position: relative;
   height: 400px;
   top: 50%;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
   overflow: hidden;
+  margin-top:100px;
 }
 #carousel div {
   position: absolute;
@@ -183,10 +188,23 @@ html, body, main {
 }
 
 .buttons {
-  position: fixed;
+  position:relative;
   left: 50%;
   transform: translateX(-50%);
   bottom: 10px;
+  justify-content: center;
+  display:flex;
+}
+
+#prev, #next{
+  margin:5px;
+  border-radius:10px;
+  color:black;
+  background-color: white;
+}
+
+#prev:hover,#next:hover{
+opacity:0.5;
 }
 
 /*# sourceMappingURL=individualSculptures.css.map */
@@ -231,6 +249,10 @@ html, body, main {
     top: 18vh;
   }
 
+  .carouselContainer {
+    position:relative;
+    top:80%
+  }
 }
 
 @media (max-width: 1050px) and (min-width: 451px) {
@@ -268,15 +290,55 @@ html, body, main {
       float: none;
       padding: 0px;
     }
+
+    .nav-item {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .carouselContainer {
+      position:relative;
+      top:30%
+    }
+
+    .carouselContainer4, .carouselContainer3,.carouselContainer5{
+      top:45%;
+    }
+
   }
 
-  .nav-item {
+  @media (max-width: 1050px) and (min-width: 451px) and (orientation:landscape){
+    .carouselContainer {
+      position:relative;
+      top:80%;
+    }
+
+    .carouselContainer4, .carouselContainer3, .carouselContainer5{
+      top:100%;
+    }
+
+    .navbar-brand {
+      top: 100%;
+    }
+  }
+
+  @media (max-width: 840px) and (min-width:568px) and (orientation:landscape){
+    .carouselContainer {
+      position:relative;
+      top:240%
+    }
+.carouselContainer5{
+  top: 260%;
+}
+
+  }
+
+  /* .nav-item {
     padding-left: 5px;
     padding-right: 5px;
-  }
+  } */
 
   .splashContainer {
     position: relative;
     top: 25vh;
   }
-}
