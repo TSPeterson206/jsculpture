@@ -113,10 +113,10 @@ footer {
     top: 18vh;
   }
 
-  .splashContainer {
+  /* .splashContainer {
     position: relative;
     top: 18vh;
-  }
+  } */
 
 }
 
@@ -162,10 +162,10 @@ footer {
     padding-right: 15px;
   }
 
-  .splashContainer {
+  /* .splashContainer {
     position: relative;
     top: 25vh;
-  }
+  } */
 }
 
 @media (max-width: 1050px) and (min-width: 451px) and (orientation:landscape){
