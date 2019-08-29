@@ -69,11 +69,11 @@
    text-align: center;
    vertical-align: middle;
 
-   height: 40vh;
+   height: 40%;
  }
 
  .splashRow2 {
-   height: 40vh;
+   height: 40%;
  }
 
  .row1Text {
@@ -213,7 +213,7 @@
 
    .splashContainer {
      position: relative;
-     top: 25vh;
+     top: 250px;
    }
  }
 
@@ -225,6 +225,11 @@
 
   .navbar-brand {
     top: 100%;
+  }
+
+  .splashContainer {
+    position: relative;
+    top: 250px;
   }
 
 }
