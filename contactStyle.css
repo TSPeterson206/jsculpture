@@ -7,9 +7,9 @@ body {
 
 .nav-container {
   display: flex;
-  position: fixed;
+  position: absolute;
   width: 100%;
-  z-index: 5;
+  /* z-index: 5; */
 }
 
 .navbar-row {
@@ -54,10 +54,19 @@ a {
   top:250px;
 }
 .contactRow{
-  height:75vh;
-  background-color:grey;
+  height:100vh;
+  /* align-content:center; */
 }
 
+.contactImage{
+  border-radius:400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top:auto;
+  margin-bottom:auto;
+}
 /* FOOTER */
 
 footer {
@@ -113,10 +122,15 @@ footer {
     top: 18vh;
   }
 
-  /* .splashContainer {
-    position: relative;
-    top: 18vh;
-  } */
+  .contactImage{
+    border-radius:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top:50%;
+    margin-bottom:auto;
+  }
 
 }
 
@@ -175,7 +189,14 @@ footer {
   }
 
   .navbar-brand {
-    top: 100%;
+    top: 65%;
   }
 
+}
+
+@media (max-width: 850px) and (min-width: 451px) and (orientation:landscape){
+
+  .navbar-brand {
+    top: 100%;
+  }
 }

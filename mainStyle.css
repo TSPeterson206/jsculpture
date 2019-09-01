@@ -7,9 +7,9 @@
 
  .nav-container {
    display: flex;
-   position: fixed;
+   position: absolute;
    width: 100%;
-   z-index: 5;
+   /* z-index: 5; */
  }
 
  .navbar-row {
@@ -65,10 +65,10 @@
  }
 
  .splashRow1 {
-   background-image: url("./images/modesty-photo-u1.jpg");
+   background-image: url("./images/splashPageChisel2.jpg");
    text-align: center;
    vertical-align: middle;
-
+background-size: cover;
    height: 40%;
  }
 
@@ -102,8 +102,8 @@
    margin: 15px;
    border-radius: 25px;
    text-align: center;
-   background-image: url("./images/hair-sculpture-1.jpeg");
-   background-size: contain;
+   background-image: url("./images/splashPageChisel6.jpg");
+   background-size: cover;
 
  }
 
@@ -112,7 +112,8 @@
    margin: 15px;
    text-align: center;
    border-radius: 25px;
-   background-image: url("./images/Coderch-Malavia-sculptors-16.jpg");
+   background-image: url("./images/splashPageChisel3.jpg");
+   background-size:cover;
  }
 
  footer {
@@ -224,7 +225,7 @@
   }
 
   .navbar-brand {
-    top: 100%;
+    top: 65%;
   }
 
   .splashContainer {
@@ -234,6 +235,13 @@
 
 }
 
+@media (max-width: 850px) and (min-width: 451px) and (orientation:landscape){
+
+  .navbar-brand {
+    top: 100%;
+  }
+
+}
  /* @media (min-width: 768px) { ... }
 
 @media (min-width: 992px) { ... }

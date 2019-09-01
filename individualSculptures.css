@@ -7,9 +7,9 @@ body {
 
 .nav-container {
   display: flex;
-  position: fixed;
+  position: absolute;
   width: 100%;
-  z-index: 5;
+  /* z-index: 5; */
 }
 
 .navbar-row {
@@ -91,7 +91,7 @@ h3 {
   /* float:bottom; */
 }
 .individualDescription{
-font-size:30px;
+font-size:25px;
 color:white;
 font-family:Arial, Helvetica, sans-serif;
 }
@@ -319,7 +319,7 @@ opacity:0.5;
     }
 
     .navbar-brand {
-      top: 100%;
+      top: 65%;
     }
   }
 
@@ -342,4 +342,11 @@ opacity:0.5;
   .splashContainer {
     position: relative;
     top: 25vh;
+  }
+
+  @media (max-width: 850px) and (min-width: 451px) and (orientation:landscape){
+
+    .navbar-brand {
+      top: 100%;
+    }
   }
