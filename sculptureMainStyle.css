@@ -7,9 +7,9 @@ body {
 
 .nav-container {
   display: flex;
-  position: fixed;
+  position: absolute;
   width: 100%;
-  z-index: 5;
+  /* z-index: 5; */
 }
 
 .navbar-row {
@@ -184,10 +184,10 @@ footer {
 }
 
 /* IPAD RESPONSIVENESS */
-@media (max-width: 1050px) and (min-width: 41px) {
+@media (max-width: 1050px) and (min-width: 451px) {
   .navbar-brand {
     position: relative;
-    /* top: 40%; */
+    top: 40%;
     font-size: 80px;
     padding-left: 0px;
     padding-top: 0px;
@@ -239,7 +239,7 @@ footer {
   }
 
   .navbar-brand {
-    top: 100%;
+    top: 65%;
   }
 
 }
@@ -288,5 +288,12 @@ footer {
     border-radius: 45px;
     position: relative;
     top: 0px;
+  }
+}
+
+@media (max-width: 850px) and (min-width: 451px) and (orientation:landscape){
+
+  .navbar-brand {
+    top: 100%;
   }
 }

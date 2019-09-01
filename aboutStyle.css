@@ -7,9 +7,9 @@ body {
 
 .nav-container {
   display: flex;
-  position: fixed;
+  position: absolute;
   width: 100%;
-  z-index: 5;
+  /* z-index: 5; */
 }
 
 .navbar-row {
@@ -191,7 +191,14 @@ footer {
   }
 
   .navbar-brand {
-    top: 100%;
+    top: 65%;
   }
 
+}
+
+@media (max-width: 850px) and (min-width: 451px) and (orientation:landscape){
+
+  .navbar-brand {
+    top: 100%;
+  }
 }
