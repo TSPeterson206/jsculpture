@@ -97,6 +97,8 @@ h3 {
 .sculptureRow1 {
   background-image: url("./images/Sculpture1/IMG_1261.JPG");
   background-size: cover;
+  vertical-align: middle;
+
   /* background-repeat: no-repeat; */
 }
 
@@ -228,6 +230,8 @@ footer {
 
   .sculpturesContainer {
     position: relative;
+    margin-top:10px;
+    margin-bottom:10px;
     /* top:25vh; */
   }
 }
@@ -241,6 +245,13 @@ footer {
   .navbar-brand {
     top: 65%;
   }
+
+  .sculpturesContainer {
+    margin-top:10px;
+    margin-bottom:10px;
+    /* margin-top:100px; */
+  }
+
 
 }
 
@@ -281,6 +292,8 @@ footer {
     position: relative;
     top:18vh;
     border-radius: 25px;
+    margin-top:10px;
+    margin-bottom:10px;
     /* margin-top:100px; */
   }
 

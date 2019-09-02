@@ -63,14 +63,16 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 100%;
+  border-radius:25px;
   /* height:100%; */
 }
 
 .aboutText {
-  font-size: 30px;
+  font-size: 25px;
   color: white;
-  background-color: grey;
+  margin-top:25px;
+  /* background-color: grey; */
 }
 
 /* FOOTER */
@@ -129,9 +131,16 @@ footer {
     /* margin-top:100px; */
   }
 
-  .splashContainer {
+  /* .splashContainer {
     position: relative;
     top: 18vh;
+  } */
+
+  .aboutText {
+    font-size: 15px;
+    color: white;
+    margin-top:25px;
+    /* background-color: grey; */
   }
 
 }

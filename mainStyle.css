@@ -218,7 +218,7 @@ background-size: cover;
    }
  }
 
- @media (max-width: 1050px) and (min-width: 451px) and (orientation:landscape){
+ @media (max-width: 1370px) and (min-width: 451px) and (orientation:landscape){
   .carouselContainer {
     position:relative;
     top:80%
