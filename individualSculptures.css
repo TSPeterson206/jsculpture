@@ -302,7 +302,7 @@ opacity:0.5;
       top:30%
     }
 
-    .carouselContainer4, .carouselContainer3,.carouselContainer5{
+    .carouselContainer4, .carouselContainer3,.carouselContainer5, .carouselContainer12{
       top:45%;
     }
 
@@ -314,7 +314,7 @@ opacity:0.5;
       top:80%;
     }
 
-    .carouselContainer4, .carouselContainer3, .carouselContainer5{
+    .carouselContainer4, .carouselContainer3, .carouselContainer5, .carouselContainer12{
       top:100%;
     }
 
