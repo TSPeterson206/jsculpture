@@ -98,73 +98,90 @@ h3 {
   height:20%;
 }
 .sculptureRow1 {
-  background-image: url("./images/Sculpture1/IMG_1258.JPG");
+  background: url("./images/Sculpture1/IMG_1258.JPG");
   background-size: cover;
+  /* background-position:center; */
+
+  /* background-repeat:no-repeat;
+  background-attachment:fixed; */
+  background-position:center center;
+
 }
 
 .sculptureRow2 {
   background-image: url("./images/Sculpture2/IMG_1262.JPG");
   background-size: cover;
+  background-position:center center;
 
 }
 
 .sculptureRow3 {
   background-image: url("./images/Sculpture3/IMG_1264.JPG");
   background-size: cover;
+  background-position:center center;
 
 }
 
 .sculptureRow4 {
   background-image: url("./images/Sculpture4/IMG_1267.JPG");
   background-size: cover;
+  background-position:center center;
 
 }
 
 .sculptureRow5 {
   background-image: url("./images/Sculpture5/IMG_1271.JPG");
   background-size: cover;
+  background-position:center center;
 
 }
 
 .sculptureRow6 {
   background-image: url("./images/Sculpture6/IMG_1276.JPG");
   background-size: cover;
+  background-position:center center;
 
 }
 
 .sculptureRow7 {
   background-image: url("./images/Sculpture7/IMG_1282.JPG");
   background-size: cover;
+  background-position:center center;
 
 }
 
 .sculptureRow8 {
   background-image: url("./images/Sculpture8/IMG_1335.JPG");
   background-size: cover;
+  background-position:center center;
 
 }
 
 .sculptureRow9 {
   background-image: url("./images/Sculpture9/IMG_1285.JPG");
   background-size: cover;
+  background-position:center center;
 
 }
 
 .sculptureRow10 {
   background-image: url("./images/Sculpture10/DSC00995.jpg");
   background-size: cover;
+  background-position:center center;
 
 }
 
 .sculptureRow11 {
   background-image: url("./images/Sculpture11/IMG_1345.JPG");
   background-size: cover;
+  background-position:center center;
 
 }
 
 .sculptureRow12 {
   background-image: url("./images/Sculpture12/IMG_4684.JPG");
   background-size: cover;
+  background-position:center center;
 
 }
 
