@@ -100,12 +100,7 @@ h3 {
 .sculptureRow1 {
   background: url("./images/Sculpture1/IMG_1258.JPG");
   background-size: cover;
-  /* background-position:center; */
-
-  /* background-repeat:no-repeat;
-  background-attachment:fixed; */
   background-position:center center;
-
 }
 
 .sculptureRow2 {
@@ -118,7 +113,7 @@ h3 {
 .sculptureRow3 {
   background-image: url("./images/Sculpture3/IMG_1264.JPG");
   background-size: cover;
-  background-position:center center;
+  background-position:center top;
 
 }
 
@@ -130,7 +125,7 @@ h3 {
 }
 
 .sculptureRow5 {
-  background-image: url("./images/Sculpture5/IMG_1271.JPG");
+  background-image: url("./images/Sculpture5/IMG_3723.JPG");
   background-size: cover;
   background-position:center center;
 
