@@ -1,5 +1,5 @@
  body {
-   background-color: black;
+   background-color: whitesmoke;
  }
 
 
@@ -20,7 +20,7 @@
  }
 
  .navbar-brand {
-   font-family: 'Condiment';
+  font-family: 'Libre Baskerville', serif;
    font-size: 60px;
    padding-top: 100px;
    padding-left: 150px;
@@ -29,8 +29,8 @@
 
  .nav-item {
    font-size: 30px;
-   font-family: 'Condiment';
-   padding-left: 25px;
+   font-family: 'Libre Baskerville', serif;
+      padding-left: 25px;
    padding-right: 25px;
  }
 
@@ -43,7 +43,7 @@
  }
 
  a {
-   color: white;
+   color:black;
  }
 
  /* SPLASH PAGE CONTAINER */
@@ -65,7 +65,7 @@
  }
 
  .splashRow1 {
-   background-image: url("./images/splashPageChisel2.jpg");
+   background-image: url("./images/newChisel1.jpeg");
    text-align: center;
    vertical-align: middle;
 background-size: cover;
@@ -78,17 +78,17 @@ background-size: cover;
 
  .row1Text {
    font-size: 50px;
-   color: white;
-   font-family: 'Condiment';
-   line-height: 350px;
+   color: black;
+   font-family: 'Libre Baskerville', serif;
+      line-height: 350px;
  }
 
  .row2Left,
  .row2Right {
    font-size: 50px;
-   color: white;
-   font-family: 'Condiment';
-   line-height: 400px;
+   color: black;
+   font-family: 'Libre Baskerville', serif;
+      line-height: 400px;
  }
 
  .box {
@@ -102,7 +102,7 @@ background-size: cover;
    margin: 15px;
    border-radius: 25px;
    text-align: center;
-   background-image: url("./images/splashPageChisel6.jpg");
+   background-image: url("./images/newChisel2.jpeg");
    background-size: cover;
 
  }
@@ -112,7 +112,7 @@ background-size: cover;
    margin: 15px;
    text-align: center;
    border-radius: 25px;
-   background-image: url("./images/splashPageChisel3.jpg");
+   background-image: url("./images/newChisel3.jpeg");
    background-size:cover;
  }
 
@@ -133,7 +133,7 @@ background-size: cover;
 
  @media (max-width: 450px) {
    .navbar-brand {
-     font-size: 42px;
+     font-size: 35px;
      padding-left: 0px;
      padding-top: 0px;
      margin: 0 auto;
@@ -162,12 +162,28 @@ background-size: cover;
    .nav-item {
      padding-left: 5px;
      padding-right: 5px;
+     font-size:22px;
    }
 
    .splashContainer {
      position: relative;
      top: 18vh;
    }
+
+   .row1Text {
+    font-size: 25px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+       line-height: 350px;
+  }
+ 
+  .row2Left,
+  .row2Right {
+    font-size: 25px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+       line-height: 400px;
+  }
 
  }
 
