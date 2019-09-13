@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color:whitesmoke;
 }
 
 
@@ -43,7 +43,7 @@ body {
 }
 
 a {
-  color: white;
+  color:black;
 }
 
 
@@ -70,7 +70,7 @@ a {
 
 .aboutText {
   font-size: 25px;
-  color: white;
+  color: black;
   margin-top:25px;
   /* background-color: grey; */
 }
