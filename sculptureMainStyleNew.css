@@ -1,5 +1,5 @@
 body {
-  background-color:whitesmoke;
+  background-color:white;
 }
 
 
@@ -46,6 +46,16 @@ a {
   color: black;
 }
 
+.nav-img {
+  float:right;
+  width:200px;
+  position:relative;
+  /* margin-left:40px; */
+  left:155px;
+  bottom:50px;
+  /* border-radius:50px; */
+}
+
 /* CARDS */
 
 .cardContainer{
@@ -82,7 +92,9 @@ justify-content:space-evenly;
 }
 
 .card-name{
-  font-size:20px;
+  font-size:30px;
+  font-family: 'Libre Baskerville', serif;
+
 }
 
 .card-dimensions{}

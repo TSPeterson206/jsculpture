@@ -1,5 +1,5 @@
 body {
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 
@@ -44,6 +44,16 @@ body {
 
 a {
   color: black;
+}
+
+.nav-img {
+  float:right;
+  width:200px;
+  position:relative;
+  /* margin-left:40px; */
+  left:155px;
+  bottom:50px;
+  /* border-radius:50px; */
 }
 
 /* CONTACT MAIN */
