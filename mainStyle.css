@@ -228,6 +228,7 @@ background-size: cover;
   .hiddenContainer{
     height:100px;
   }
+
  }
 
  @media (max-width: 1050px) and (min-width: 451px) {
