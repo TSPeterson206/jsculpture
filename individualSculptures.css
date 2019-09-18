@@ -185,7 +185,7 @@ main {
 }
 
 #carousel div.prev {
-  /* z-index: 5; */
+  z-index: 5;
   left: 30%;
   transform: translateY(50px) translateX(-50%);
 }
@@ -195,7 +195,7 @@ main {
 }
 
 #carousel div.prevLeftSecond {
-  /* z-index: 4; */
+  z-index: 4;
   left: 15%;
   transform: translateY(50%) translateX(-50%);
   opacity: 0.7;
@@ -206,13 +206,13 @@ main {
 }
 
 #carousel div.selected {
-  /* z-index: 10; */
+  z-index: 10;
   left: 50%;
   transform: translateY(0px) translateX(-50%);
 }
 
 #carousel div.next {
-  /* z-index: 5; */
+  z-index: 5;
   left: 70%;
   transform: translateY(50px) translateX(-50%);
 }
@@ -222,7 +222,7 @@ main {
 }
 
 #carousel div.nextRightSecond {
-  /* z-index: 4; */
+  z-index: 4;
   left: 85%;
   transform: translateY(50%) translateX(-50%);
   opacity: 0.7;
@@ -309,6 +309,7 @@ footer {
   background-color: darkgray;
   color: white;
   text-align: center;
+  z-index:15;
 }
 
 .footerItem {
@@ -409,6 +410,10 @@ top:15%;
   .carouselContainer15{
     top:35%;
   }
+
+  .nav-img{
+    display:none !important;
+  }
 }
 
 @media (max-width: 1050px) and (min-width: 451px) {
@@ -462,6 +467,10 @@ top:15%;
   .carouselContainer5,
   .carouselContainer12 {
     top: 45%;
+  }
+
+  .nav-img{
+    display:none !important;
   }
 
 }

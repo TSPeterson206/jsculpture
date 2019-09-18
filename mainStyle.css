@@ -148,6 +148,7 @@ background-size: cover;
    background-color: darkgray;
    color: white;
    text-align: center;
+   z-index:15;
  }
 
  .footerItem {
