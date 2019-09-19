@@ -314,7 +314,9 @@ display:none !important;
 
 /* MODAL */
 
-#myImg1, #myImg2 {
+#myImg1, #myImg2, #myImg3, #myImg4, #myImg5,
+#myImg6, #myImg7, #myImg8, #myImg9, #myImg10,
+#myImg11, #myImg12, #myImg13, #myImg14, #myImg15 {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
@@ -323,7 +325,9 @@ display:none !important;
 #myImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
-.modal1, .modal2 {
+.modal1, .modal2, .modal3, .modal4, .modal5,
+.modal6, .modal7, .modal8, .modal9, .modal10,
+.modal11, .modal12, .modal13, .modal14, .modal15 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -346,7 +350,9 @@ display:none !important;
 }
 
 /* Caption of Modal Image */
-#caption1, #caption2 {
+#caption1, #caption2, #caption3, #caption4, #caption5,
+#caption6, #caption7, #caption8, #caption9, #caption10,
+#caption11, #caption12, #caption13, #caption14, #caption15 {
   margin: auto;
   display: block;
   width: 80%;
@@ -358,7 +364,9 @@ display:none !important;
 }
 
 /* Add Animation */
-.modal-content, #caption1, #caption2 {  
+.modal-content, #caption1, #caption2, #caption3, #caption4, #caption5,
+#caption6, #caption7, #caption8, #caption9, #caption10,
+#caption11, #caption12, #caption13, #caption14, #caption15  {  
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -376,7 +384,9 @@ display:none !important;
 }
 
 /* The Close Button */
-.close1, .close2 {
+.close1, .close2, .close3, .close4, .close5,
+.close6, .close7, .close8, .close9, .close10,
+.close11, .close12, .close13, .close14, .close15 {
   position: absolute;
   top: 15px;
   right: 35px;
@@ -389,7 +399,33 @@ display:none !important;
 .close1:hover,
 .close1:focus,
 .close2:hover,
-.close2:focus  {
+.close2:focus,
+.close3:hover,
+.close3:focus,
+.close4:hover,
+.close4:focus,
+.close5:hover,
+.close5:focus,
+.close6:hover,
+.close6:focus,
+.close7:hover,
+.close7:focus,
+.close8:hover,
+.close8:focus,
+.close9:hover,
+.close9:focus,
+.close10:hover,
+.close10:focus,
+.close11:hover,
+.close11:focus,
+.close12:hover,
+.close12:focus,
+.close13:hover,
+.close13:focus,
+.close14:hover,
+.close14:focus,
+.close15:hover,
+.close15:focus  {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
