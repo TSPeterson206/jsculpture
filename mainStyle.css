@@ -1,5 +1,5 @@
  body {
-   background-color:white;
+   background-color: white;
  }
 
 
@@ -20,40 +20,47 @@
  }
 
  .navbar-brand {
-   /* display:flex; */
-  font-family: 'Libre Baskerville', serif;
+   font-family: 'Libre Baskerville', serif;
    font-size: 60px;
    padding-top: 100px;
    padding-left: 150px;
    text-decoration: none;
  }
+ .navbar-title:hover, .splashColLink:hover {
+  text-decoration: none;
+ }
 
  .nav-item {
+  
    font-size: 30px;
    font-family: 'Libre Baskerville', serif;
-      padding-left: 25px;
+   padding-left: 25px;
    padding-right: 25px;
+ }
+
+ .nav-item:hover{
+  text-decoration: none;
  }
 
  .navbar-list {
    display: flex;
-   position: relative;
-   left: 300px;
-   top: 100px;
-   right: 150px;
+   /* position: relative; */
+   /* top: 100px; */
+   padding-top: 100px;
+   padding-left: 250px;
  }
 
  a {
-   color:black;
+   color: black;
  }
 
  .nav-img {
-   float:right;
-   width:200px;
-   position:relative;
+   float: right;
+   width: 200px;
+   position: relative;
    /* margin-left:40px; */
-   left:155px;
-   bottom:50px;
+   left: 155px;
+   bottom: 50px;
    /* border-radius:50px; */
  }
 
@@ -63,6 +70,7 @@
    border-radius: 45px;
    position: relative;
    top: 250px;
+   margin-bottom:100px;
  }
 
  .splashRow1,
@@ -79,7 +87,7 @@
    background-image: url("./images/newChisel1.jpeg");
    text-align: center;
    vertical-align: middle;
-background-size: cover;
+   background-size: cover;
    height: 40%;
  }
 
@@ -91,7 +99,7 @@ background-size: cover;
    font-size: 50px;
    color: black;
    font-family: 'Libre Baskerville', serif;
-      line-height: 350px;
+   line-height: 350px;
  }
 
  .row2Left,
@@ -99,7 +107,7 @@ background-size: cover;
    font-size: 50px;
    color: black;
    font-family: 'Libre Baskerville', serif;
-      line-height: 400px;
+   line-height: 400px;
  }
 
  .box {
@@ -124,20 +132,21 @@ background-size: cover;
    text-align: center;
    border-radius: 25px;
    background-image: url("./images/newChisel3.jpeg");
-   background-size:cover;
+   background-size: cover;
  }
 
- .hiddenContainer{
-   
-}
+ .hiddenContainer {
+   margin-bottom: 50px;
+ }
 
-.hiddenImageRow{
-  height:40vh;
-}
-.nav-img-hidden{
- display:none;
- height:100%;
-}
+ .hiddenImageRow {
+   height: 20vh;
+ }
+
+ .nav-img-hidden {
+   display: none;
+   height: 100%;
+ }
 
  footer {
    height: 50px;
@@ -148,7 +157,7 @@ background-size: cover;
    background-color: darkgray;
    color: white;
    text-align: center;
-   z-index:15;
+   z-index: 15;
  }
 
  .footerItem {
@@ -186,7 +195,7 @@ background-size: cover;
    .nav-item {
      padding-left: 5px;
      padding-right: 5px;
-     font-size:22px;
+     font-size: 22px;
    }
 
    .splashContainer {
@@ -195,43 +204,60 @@ background-size: cover;
    }
 
    .row1Text {
-    font-size: 25px;
-    color: white;
-    font-family: 'Libre Baskerville', serif;
-       line-height: 350px;
-  }
- 
-  .row2Left,
-  .row2Right {
-    font-size: 25px;
-    color: white;
-    font-family: 'Libre Baskerville', serif;
-       line-height: 400px;
-  }
-
-  .nav-img{
-    display:none !important;
-  }
-
-  .nav-img-hidden{
-    display:block;
-    height:50%;
-    width:50%;
+     font-size: 25px;
+     color: white;
+     font-family: 'Libre Baskerville', serif;
+     line-height: 350px;
    }
 
-   .hiddenImageRow{
-     position:relative;
-     justify-content:center;
-     display:flex;
-     top:25vh;
+   .row2Left,
+   .row2Right {
+     font-size: 25px;
+     color: white;
+     font-family: 'Libre Baskerville', serif;
+     line-height: 400px;
    }
 
-  .hiddenContainer{
-    height:100px;
-  }
+   .nav-img {
+     display: none !important;
+   }
+
+   .nav-img-hidden {
+     display: block;
+     height: 50%;
+     width: 50%;
+   }
+
+   .hiddenImageRow {
+     position: relative;
+     justify-content: center;
+     display: flex;
+     top: 10vh;
+   }
+
+   .hiddenContainer {
+     height: 100px;
+   }
 
  }
 
+ @media (max-width: 320px) {
+  .navbar-brand {
+    font-size: 25px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin: 0 auto;
+    float: none;
+    margin-top: 30px;
+    padding: 0px;
+  }
+
+  .splashContainer{
+    top:20vh;
+  }
+ }
+
+ /* IPAD - PORTRAIT */
  @media (max-width: 1050px) and (min-width: 451px) {
    .navbar-brand {
      position: relative;
@@ -267,6 +293,7 @@ background-size: cover;
      display: inline-block;
      float: none;
      padding: 0px;
+     top: 100px;
    }
 
    .nav-item {
@@ -279,152 +306,155 @@ background-size: cover;
      top: 250px;
    }
 
-   .nav-img{
-    display:none !important;
-  }
-
-  .nav-img-hidden{
-    display:block;
-    height:50%;
-    width:50%;
+   .nav-img {
+     display: none !important;
    }
 
-   .hiddenImageRow{
-     position:relative;
-     justify-content:center;
-     display:flex;
-     top:25vh;
+   .nav-img-hidden {
+     display: block;
+     /* height:50%; */
+     /* width:50%; */
+     margin-bottom: 60px;
    }
 
-  .hiddenContainer{
-    height:100px;
-  }
+   .hiddenImageRow {
+     position: relative;
+     justify-content: center;
+     display: flex;
+     top: 25vh;
+   }
+
+   .hiddenContainer {
+     height: 20vh;
+   }
  }
 
- @media (max-width: 1370px) and (min-width: 451px) and (orientation:landscape){
-  .carouselContainer {
-    position:relative;
-    top:80%
-  }
-
-  .navbar-brand {
-    top: 65%;
-  }
-
-  .splashContainer {
-    position: relative;
-    top: 250px;
-  }
-
-  .nav-img{
-    /* width:50px; */
-display:none !important;
-  }
-
-  .nav-img{
-    display:none !important;
-  }
-
-  .nav-img-hidden{
-    display:block;
-    height:50%;
-    width:50%;
+ @media (max-width: 1370px) and (min-width: 451px) and (orientation:landscape) {
+   .carouselContainer {
+     position: relative;
+     top: 80%
    }
 
-   .hiddenImageRow{
-     position:relative;
-     justify-content:center;
-     display:flex;
-     top:35vh;
+   .navbar-brand {
+     top: 65%;
    }
 
-  .hiddenContainer{
-    height:100px;
-  }
-
-}
-
-@media (max-width: 850px) and (min-width: 451px) and (orientation:landscape){
-
-  .navbar-brand {
-    top: 100%;
-  }
-
-  .nav-img{
-    display:none !important;
-  }
-
-  .nav-img-hidden{
-    display:block;
-    height:100%;
-    width:50%;
+   .splashContainer {
+     position: relative;
+     top: 250px;
    }
 
-   .hiddenImageRow{
-     position:relative;
-     justify-content:center;
-     display:flex;
-     top:70vh;
-     margin-bottom:100px;
+   .nav-img {
+     /* width:50px; */
+     display: none !important;
    }
 
-  .hiddenContainer{
-    height:100px;
-  }
-
-
-}
-
-@media (max-width: 1400px) and (min-width: 1100px) and (orientation:landscape){
-  .carouselContainer {
-    position:relative;
-    top:80%
-  }
-
-  .navbar-brand {
-    top: 65%;
-  }
-
-  .splashContainer {
-    position: relative;
-    top: 250px;
-  }
-
-  .nav-img{
-    /* width:50px; */
-display:none !important;
-  }
-
-  .nav-img{
-    display:none !important;
-  }
-
-  .nav-img-hidden{
-    display:block;
-    height:50%;
-    width:50%;
+   .nav-img {
+     display: none !important;
    }
 
-   .hiddenImageRow{
-     position:relative;
-     justify-content:center;
-     display:flex;
-     top:35vh;
+   .nav-img-hidden {
+     display: block;
+     /* height:50%; */
+     /* width:50%; */
+     margin-bottom: 60px;
    }
 
-  .hiddenContainer{
-    height:100px;
-  }
-  
-  .navbar-list {
-    display: flex;
-    position: relative;
-    left: 20px;
-    top: 100px;
-    right: 150px;
-  }
+   .hiddenImageRow {
+     position: relative;
+     justify-content: center;
+     display: flex;
+     top: 35vh;
+   }
 
-  /* body{
+   .hiddenContainer {
+     height: 20vh;
+   }
+ }
+
+ @media (max-width: 850px) and (min-width: 451px) and (orientation:landscape) {
+
+   .navbar-brand {
+     top: 100%;
+   }
+
+   .nav-img {
+     display: none !important;
+   }
+
+   .nav-img-hidden {
+     display: block;
+     height: 100%;
+     /* width:50%; */
+   }
+
+   .hiddenImageRow {
+     position: relative;
+     justify-content: center;
+     display: flex;
+     top: 70vh;
+     margin-bottom: 100px;
+   }
+
+   .hiddenContainer {
+     height: 100px;
+   }
+
+
+ }
+
+ /* IPAD PRO - LANDSCAPE */
+ @media (max-width: 1400px) and (min-width: 1100px) and (orientation:landscape) {
+   .carouselContainer {
+     position: relative;
+     top: 80%
+   }
+
+   .navbar-brand {
+     top: 65%;
+   }
+
+   .splashContainer {
+     position: relative;
+     top: 250px;
+   }
+
+   .nav-img {
+     /* width:50px; */
+     display: none !important;
+   }
+
+   .nav-img {
+     display: none !important;
+   }
+
+   .nav-img-hidden {
+     display: block;
+     /* height:50%;
+    width:50%; */
+   }
+
+   .hiddenImageRow {
+     position: relative;
+     justify-content: center;
+     display: flex;
+     top: 35vh;
+   }
+
+   .hiddenContainer {
+     height: 100px;
+   }
+
+   .navbar-list {
+     display: flex;
+     position: relative;
+     left: 15px;
+     /* top: 100px; */
+     right: 150px;
+     padding-left: 0px;
+   }
+
+   /* body{
   background-color:red
   } */
-}
+ }
