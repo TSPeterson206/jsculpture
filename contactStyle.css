@@ -36,10 +36,10 @@ body {
 
 .navbar-list {
   display: flex;
-  position: relative;
-  left: 300px;
-  top: 100px;
-  right: 150px;
+   /* position: relative; */
+   /* top: 100px; */
+   padding-top: 100px;
+   padding-left: 250px;
 }
 
 a {
@@ -212,12 +212,20 @@ footer {
     top: 65%;
   }
 
+  .navbar-list {
+    top:100px;
+  }
+
 }
 
 @media (max-width: 850px) and (min-width: 451px) and (orientation:landscape){
 
   .navbar-brand {
     top: 100%;
+  }
+
+  .navbar-list {
+    top:100px;
   }
 }
 

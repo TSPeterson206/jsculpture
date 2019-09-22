@@ -36,10 +36,10 @@ body {
 
 .navbar-list {
   display: flex;
-  position: relative;
-  left: 300px;
-  top: 100px;
-  right: 150px;
+   /* position: relative; */
+   /* top: 100px; */
+   padding-top: 100px;
+   padding-left: 250px;
 }
 
 a {
@@ -557,6 +557,10 @@ top:15%;
   .carouselContainer15{
     position:relative;
     top:250%;
+  }
+
+  .navbar-list {
+    top:100px;
   }
 }
 
