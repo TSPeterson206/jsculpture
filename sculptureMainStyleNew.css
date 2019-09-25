@@ -65,7 +65,7 @@ a {
 }
 
 .cardContainer1, .cardContainer2, .cardContainer3, .cardContainer4{
-justify-content:space-evenly;
+justify-content:space-around;
 }
 
 .cardContainer2, .cardContainer3, .cardContainer4 {
@@ -140,7 +140,7 @@ footer {
 
   .navbar-list {
     position: relative;
-    /* top: 80%; */
+    top: 100px;
     /* right: 35%; */
     text-align: center;
     display: inline-block;
@@ -254,6 +254,8 @@ footer {
   }
   .card{
 width:100vw;  
+padding-left:10px;
+padding-right:10px;
 }
 
 .nav-img{
@@ -261,6 +263,29 @@ width:100vw;
 }
 
 }
+
+/* IPHONE 5 OR SMALLER PROTRAIT */
+@media (max-width: 320px) {
+  .navbar-brand {
+    font-size: 25px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin: 0 auto;
+    float: none;
+    margin-top: 30px;
+    padding: 0px;
+  }
+
+  .splashContainer{
+    top:20vh;
+  }
+
+  .card{
+    width:100vw;  
+    padding-left:10px;
+    padding-right:10px;
+    }
+ }
 
 @media (max-width: 850px) and (min-width: 451px) and (orientation:landscape){
 
@@ -317,9 +342,10 @@ display:none !important;
   .navbar-list {
     display: flex;
     position: relative;
-    left: 20px;
-    top: 100px;
+    left: 15px;
+    /* top: 100px; */
     right: 150px;
+    padding-left: 0px;
   }
 }
 

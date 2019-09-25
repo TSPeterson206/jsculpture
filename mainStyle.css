@@ -84,11 +84,13 @@
  }
 
  .splashRow1 {
-   background-image: url("./images/newChisel1.jpeg");
+   background-image: url("./images/sculpturePicFront.jpg");
    text-align: center;
    vertical-align: middle;
    background-size: cover;
+   background-position: center;
    height: 40%;
+   opacity:0.7;
  }
 
  .splashRow2 {
@@ -97,7 +99,7 @@
 
  .row1Text {
    font-size: 50px;
-   color: black;
+   color: white;
    font-family: 'Libre Baskerville', serif;
    line-height: 350px;
  }
@@ -105,7 +107,7 @@
  .row2Left,
  .row2Right {
    font-size: 50px;
-   color: black;
+   color: white;
    font-family: 'Libre Baskerville', serif;
    line-height: 400px;
  }
@@ -121,9 +123,9 @@
    margin: 15px;
    border-radius: 25px;
    text-align: center;
-   background-image: url("./images/newChisel2.jpeg");
+   background-image: url("./images/artistFront.jpg");
    background-size: cover;
-
+opacity:0.7;
  }
 
  .splashCol2 {
@@ -133,6 +135,7 @@
    border-radius: 25px;
    background-image: url("./images/newChisel3.jpeg");
    background-size: cover;
+   opacity:0.7;
  }
 
  .hiddenContainer {
@@ -207,7 +210,10 @@
      font-size: 25px;
      color: white;
      font-family: 'Libre Baskerville', serif;
-     line-height: 350px;
+     line-height: 250px;
+
+     display: table-cell;
+        vertical-align: middle;
    }
 
    .row2Left,
@@ -215,7 +221,7 @@
      font-size: 25px;
      color: white;
      font-family: 'Libre Baskerville', serif;
-     line-height: 400px;
+     line-height: 250px;
    }
 
    .nav-img {
@@ -225,22 +231,41 @@
    .nav-img-hidden {
      display: block;
      height: 50%;
-     width: 50%;
+     /* width: 50%; */
    }
 
    .hiddenImageRow {
      position: relative;
      justify-content: center;
      display: flex;
-     top: 10vh;
+     top: 8vh;
    }
 
    .hiddenContainer {
-     height: 100px;
+     /* height: 100px; */
    }
 
+   .splashRow1{
+    margin-left:5px;
+    margin-right:5px;
+    height:30vh;
+  }
+
+  .splashRow2{
+    height:30vh;
+  }
+
+  .row1TextDiv{
+    display: flex;
+    /* width: 50%; */
+    /* height: 30vh; */
+    margin: auto;
+    border-radius: 10px;
+    /* border: 3px dashed #1c87c9; */
+  }
  }
 
+ /* IPHONE 5 OR SMALLER PROTRAIT */
  @media (max-width: 320px) {
   .navbar-brand {
     font-size: 25px;
@@ -254,6 +279,30 @@
 
   .splashContainer{
     top:20vh;
+  }
+
+  /* .splashRow1{
+    margin-left:5px;
+    margin-right:5px;
+  } */
+
+  .splashRow1{
+    margin-left:5px;
+    margin-right:5px;
+    height:30vh;
+  }
+
+  .splashRow2{
+    height:30vh;
+  }
+
+  .row1TextDiv{
+    display: flex;
+    /* width: 50%; */
+    height: 30vh;
+    margin: auto;
+    border-radius: 10px;
+    /* border: 3px dashed #1c87c9; */
   }
  }
 
@@ -311,25 +360,47 @@
    }
 
    .nav-img-hidden {
-     display: block;
-     /* height:50%; */
-     /* width:50%; */
-     margin-bottom: 60px;
-   }
+    display: block;
+    height: 50%;
+    /* width: 50%; */
+  }
 
-   .hiddenImageRow {
-     position: relative;
-     justify-content: center;
-     display: flex;
-     top: 25vh;
-   }
+  .hiddenImageRow {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    top: 16vh;
+  }
 
    .hiddenContainer {
      height: 20vh;
    }
+
+   .splashRow1{
+    margin-left:5px;
+    margin-right:5px;
+    height:30vh;
+  }
+
+  .splashRow2{
+    height:30vh;
+  }
+
+  .row1TextDiv{
+    display: flex;
+    /* width: 50%; */
+    height: 30vh;
+    margin: auto;
+    border-radius: 10px;
+    /* border: 3px dashed #1c87c9; */
+  }
+
+  .hiddenImageRow{
+    height:14vh;
+  }
  }
 
- @media (max-width: 1370px) and (min-width: 451px) and (orientation:landscape) {
+ /* @media (max-width: 1370px) and (min-width: 451px) and (orientation:landscape) {
    .carouselContainer {
      position: relative;
      top: 80%
@@ -345,7 +416,6 @@
    }
 
    .nav-img {
-     /* width:50px; */
      display: none !important;
    }
 
@@ -354,24 +424,23 @@
    }
 
    .nav-img-hidden {
-     display: block;
-     /* height:50%; */
-     /* width:50%; */
-     margin-bottom: 60px;
-   }
+    display: block;
+    height: 50%;
+  }
 
-   .hiddenImageRow {
-     position: relative;
-     justify-content: center;
-     display: flex;
-     top: 35vh;
-   }
+  .hiddenImageRow {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    top: 16vh;
+  }
 
    .hiddenContainer {
      height: 20vh;
    }
- }
+ } */
 
+ /* MOBILE -LANDSCAPE */
  @media (max-width: 850px) and (min-width: 451px) and (orientation:landscape) {
 
    .navbar-brand {
@@ -392,7 +461,7 @@
      position: relative;
      justify-content: center;
      display: flex;
-     top: 70vh;
+     top: 50vh;
      margin-bottom: 100px;
    }
 
@@ -400,6 +469,31 @@
      height: 100px;
    }
 
+   .splashRow1{
+    margin-left:5px;
+    margin-right:5px;
+    height:60vh;
+  }
+
+  .splashRow2{
+    height:60vh;
+  }
+
+  .row1TextDiv{
+    display: flex;
+    /* width: 50%; */
+    height: 60vh;
+    margin: auto;
+    border-radius: 10px;
+    /* border: 3px dashed #1c87c9; */
+  }
+
+  .row1Text, .row2Left, .row2Right {
+    font-size: 25px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 200px;
+  }
 
  }
 

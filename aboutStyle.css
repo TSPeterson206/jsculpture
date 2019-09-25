@@ -66,12 +66,13 @@ a {
 }
 
 .aboutRow {
-  /* height: 80vh; */
-  background-image:url('./images/marble2.jpg');
-  background-size:cover;
-  background-position:center;
+  /* width:50%; */
+  /* background-image:url('./images/marble2.jpg'); */
+  /* background-size:cover; */
+  /* background-position:center; */
   border-radius:25px;
   /* opacity:0.5; */
+  display:flex;
 }
 
 .aboutImage {
@@ -80,17 +81,21 @@ a {
   margin-right: auto;
   width: 100%;
   border-radius:25px;
-  /* height:100%; */
+  height:100%;
 }
 
 .aboutText {
-  font-size: 40px;
+  font-size: 20px;
   color: black;
   margin-top:25px;
   /* background-color: grey; */
   opacity:1.0 !important;
   color:black;
   /* line-height:100px; */
+}
+
+.aboutImageColumn1, .aboutImageColumn2{
+  width:50%;
 }
 
 /* FOOTER */
@@ -149,7 +154,7 @@ footer {
   .aboutContainer {
     position: relative;
     top: 18vh;
-    /* margin-top:100px; */
+    margin-bottom:0px;
   }
 
   /* .splashContainer {
@@ -168,7 +173,31 @@ footer {
     display:none !important;
   }
 
+  .aboutRow{
+    display:flex;
+  }
+
+  .aboutImageColumn1{
+    width:100vw;
+  }
 }
+
+/* IPHONE 5 OR SMALLER PROTRAIT */
+@media (max-width: 320px) {
+  .navbar-brand {
+    font-size: 25px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin: 0 auto;
+    float: none;
+    margin-top: 30px;
+    padding: 0px;
+  }
+
+  .splashContainer{
+    top:20vh;
+  }
+ }
 
 @media (max-width: 1050px) and (min-width: 451px) {
   .navbar-brand {
@@ -219,6 +248,24 @@ footer {
 
   .nav-img{
     display:none !important;
+  }
+
+  .aboutImageColumn1{
+    width:65%;
+    height:50vh;
+  }
+
+  .aboutImageColumn2{
+    width:35%;
+    height:50vh;
+  }
+
+  .aboutText{
+    font-size:15px;
+  }
+
+  .aboutTextRow{
+    margin-top:0px;
   }
 }
 
@@ -286,9 +333,10 @@ display:none !important;
   .navbar-list {
     display: flex;
     position: relative;
-    left: 20px;
-    top: 100px;
+    left: 15px;
+    /* top: 100px; */
     right: 150px;
+    padding-left: 0px;
   }
 
 }
