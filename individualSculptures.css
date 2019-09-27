@@ -36,10 +36,10 @@ body {
 
 .navbar-list {
   display: flex;
-   /* position: relative; */
-   /* top: 100px; */
-   padding-top: 100px;
-   padding-left: 250px;
+  /* position: relative; */
+  /* top: 100px; */
+  padding-top: 100px;
+  padding-left: 250px;
 }
 
 a {
@@ -47,12 +47,12 @@ a {
 }
 
 .nav-img {
-  float:right;
-  width:200px;
-  position:relative;
+  float: right;
+  width: 200px;
+  position: relative;
   /* margin-left:40px; */
-  left:155px;
-  bottom:50px;
+  left: 155px;
+  bottom: 50px;
   /* border-radius:50px; */
 }
 
@@ -129,8 +129,8 @@ h3 {
   position: relative;
 }
 
-.carouselContainer15{
-  top:30%;
+.carouselContainer15 {
+  top: 30%;
 }
 
 /* CAROUSEL */
@@ -232,6 +232,10 @@ main {
   width: 200px;
 }
 
+/* .carouselPicture{
+  height:100%;
+} */
+
 .buttons {
   position: relative;
   left: 50%;
@@ -240,7 +244,7 @@ main {
   justify-content: center;
   display: flex;
   margin-top: 15px;
-  margin-bottom:10%;
+  margin-bottom: 10%;
 }
 
 /* #prev, #next{
@@ -309,7 +313,7 @@ footer {
   background-color: darkgray;
   color: white;
   text-align: center;
-  z-index:15;
+  z-index: 15;
 }
 
 .footerItem {
@@ -365,54 +369,88 @@ footer {
     /* top: 80% */
   }
 
-  .carouselContainer1{
-top:15%;
-  }
-  .carouselContainer2{
-    top:35%;
-  }
-  .carouselContainer3{
-    top:40%;
-  }
-  .carouselContainer4{
-    top:30%;
-  }
-  .carouselContainer5{
-    top:20%;
-  }
-  .carouselContainer6{
-    top:30%;
-  }
-  .carouselContainer7{
-    top:10%;
-  }
-  .carouselContainer8{
-    top:10%;
-  }
-  .carouselContainer9{
-    top:20%;
-  }
-  .carouselContainer10{
-    top:10%;
-  }
-  .carouselContainer11{
-    top:15%;
-  }
-  .carouselContainer12{
-    top:50%;
-  }
-  .carouselContainer13{
-    top:20%;
-  }
-  .carouselContainer14{
-    top:30%;
-  }
-  .carouselContainer15{
-    top:35%;
+  .carouselContainer1 {
+    top: 15%;
   }
 
-  .nav-img{
-    display:none !important;
+  .carouselContainer2 {
+    top: 35%;
+  }
+
+  .carouselContainer3 {
+    top: 60%;
+  }
+
+  .carouselContainer4 {
+    top: 40%;
+  }
+
+  .carouselContainer5 {
+    top: 20%;
+  }
+
+  .carouselContainer6 {
+    top: 30%;
+  }
+
+  .carouselContainer7 {
+    top: 10%;
+  }
+
+  .carouselContainer8 {
+    top: 10%;
+  }
+
+  .carouselContainer9 {
+    top: 20%;
+  }
+
+  .carouselContainer10 {
+    top: 10%;
+  }
+
+  .carouselContainer11 {
+    top: 20%;
+  }
+
+  .carouselContainer12 {
+    top: 45%;
+  }
+
+  .carouselContainer13 {
+    top: 30%;
+  }
+
+  .carouselContainer14 {
+    top: 35%;
+  }
+
+  .carouselContainer15 {
+    top: 40%;
+  }
+
+  .nav-img {
+    display: none !important;
+  }
+
+  .individualDescription {
+    height: 0vh;
+    font-size: 18px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    display: flex;
+    margin: auto;
+  
+  }
+
+  .sculptureRow{
+    height:60vh;
+  }
+
+  #carousel div img {
+    width: 400px;
+    transition: width 1s;
   }
 }
 
@@ -458,7 +496,7 @@ top:15%;
   }
 
   .individualDescription {
-    font-size:20px;
+    font-size: 20px;
   }
 
   .carouselContainer {
@@ -466,54 +504,68 @@ top:15%;
     /* top: 80% */
   }
 
-  .carouselContainer1{
-top:15%;
-  }
-  .carouselContainer2{
-    top:55%;
-  }
-  .carouselContainer3{
-    top:45%;
-  }
-  .carouselContainer4{
-    top:45%;
-  }
-  .carouselContainer5{
-    top:20%;
-  }
-  .carouselContainer6{
-    top:30%;
-  }
-  .carouselContainer7{
-    top:10%;
-  }
-  .carouselContainer8{
-    top:15%;
-  }
-  .carouselContainer9{
-    top:30%;
-  }
-  .carouselContainer10{
-    top:10%;
-  }
-  .carouselContainer11{
-    top:20%;
-  }
-  .carouselContainer12{
-    top:60%;
-  }
-  .carouselContainer13{
-    top:25%;
-  }
-  .carouselContainer14{
-    top:45%;
-  }
-  .carouselContainer15{
-    top:45%;
+  .carouselContainer1 {
+    top: 25%;
   }
 
-  .nav-img{
-    display:none !important;
+  .carouselContainer2 {
+    top: 65%;
+  }
+
+  .carouselContainer3 {
+    top: 55%;
+  }
+
+  .carouselContainer4 {
+    top: 65%;
+  }
+
+  .carouselContainer5 {
+    top: 30%;
+  }
+
+  .carouselContainer6 {
+    top: 40%;
+  }
+
+  .carouselContainer7 {
+    top: 10%;
+  }
+
+  .carouselContainer8 {
+    top: 15%;
+  }
+
+  .carouselContainer9 {
+    top: 30%;
+  }
+
+  .carouselContainer10 {
+    top: 15%;
+  }
+
+  .carouselContainer11 {
+    top: 30%;
+  }
+
+  .carouselContainer12 {
+    top: 60%;
+  }
+
+  .carouselContainer13 {
+    top: 40%;
+  }
+
+  .carouselContainer14 {
+    top: 45%;
+  }
+
+  .carouselContainer15 {
+    top: 45%;
+  }
+
+  .nav-img {
+    display: none !important;
   }
 
   .individualTitle {
@@ -522,12 +574,22 @@ top:15%;
     /* float:bottom; */
   }
 
-  .buttons{
-    bottom:30px;
+  .buttons {
+    bottom: 30px;
   }
 
+  .individualDescription {
+    height: 0vh;
+    font-size: 18px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
   
- }
+    display: flex;
+    margin: auto;
+  
+  }
+
+}
 
 /* IPAD - PORTRAIT */
 @media (max-width: 1050px) and (min-width: 451px) {
@@ -573,28 +635,70 @@ top:15%;
 
   .carouselContainer {
     position: relative;
-    top: 30%
+    /* top: 30% */
+  }
+
+  .carouselContainer2 {
+    top: 20%;
   }
 
   .carouselContainer4,
   .carouselContainer3,
   .carouselContainer5,
   .carouselContainer12 {
+    top: 30%;
+  }
+
+  .carouselContainer14 {
+    top: 30%;
+  }
+
+  .carouselContainer8 {
+    top: 10%;
+  }
+
+  .carouselContainer10 {
+    top: 10%;
+  }
+
+  .carouselContainer6 {
+    top: 20%;
+  }
+
+  .carouselContainer13 {
+    top: 20%;
+  }
+
+  .carouselContainer15 {
     top: 45%;
   }
 
-  .carouselContainer14{
-    top:50%;
+  .carouselContainer11 {
+    top: 10%;
   }
 
-  .carouselContainer15{
-    top:70%;
-  }
-  .nav-img{
-    display:none !important;
+  .nav-img {
+    display: none !important;
   }
 
+  .individualDescription {
+    /* height: 50vh; */
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    margin: auto;
+
+  }
+
+  .individualDescriptionPar {
+    margin: 0;
+    /* Important */
+    text-align: center;
+  }
 }
+
 /* IPAD - LANDSCAPE */
 
 @media (max-width: 1050px) and (min-width: 841px) and (orientation:landscape) {
@@ -610,16 +714,76 @@ top:15%;
     top: 200%;
   }
 
-  .carouselContainer15{
-    top:150%;
+  .carouselContainer15 {
+    top: 150%;
   }
 
   .navbar-brand {
     top: 65%;
   }
+
+  .carouselContainer1 {
+    top: 50%;
+  }
+
+  .carouselContainer2 {
+    top: 50%;
+  }
+
+  .carouselContainer3 {
+    top: 80%;
+  }
+
+  .carouselContainer4 {
+    top: 80%;
+  }
+
+  .carouselContainer5 {
+    top: 70%;
+  }
+
+  .carouselContainer6 {
+    /* top: 30%; */
+  }
+
+  .carouselContainer7 {
+    top: 50%;
+  }
+
+  .carouselContainer8 {
+    top: 60%;
+  }
+
+  .carouselContainer9 {
+    top: 40%;
+  }
+
+  .carouselContainer10 {
+    top: 60%;
+  }
+
+  .carouselContainer11 {
+    top: 60%;
+  }
+
+  .carouselContainer12 {
+    top: 70%;
+  }
+
+  .carouselContainer13 {
+    /* top: 20%; */
+  }
+
+  .carouselContainer14 {
+    top: 90%;
+  }
+
+  .carouselContainer15 {
+    top: 120%;
+  }
 }
 
-/* @media (max-width: 840px) and (min-width:568px) and (orientation:landscape) {
+  /* @media (max-width: 840px) and (min-width:568px) and (orientation:landscape) {
   .carouselContainer {
     position: relative;
     top: 200%
@@ -636,99 +800,157 @@ top:15%;
     padding-right: 5px;
   } */
 
-/* .splashContainer {
+  /* .splashContainer {
   position: relative;
   top: 25vh; */
-/* }  */
+  /* }  */
 
-/* MOBILE - LANDSCAPE */
+  /* MOBILE - LANDSCAPE */
 
-@media (max-width: 850px) and (min-width: 451px) and (orientation:landscape) {
-  
-.splashContainer {
-  position: relative;
-  top: 25vh;
-}
-  .navbar-brand {
-    top: 100%;
+  @media (max-width: 850px) and (min-width: 451px) and (orientation:landscape) {
+
+    .splashContainer {
+      position: relative;
+      top: 25vh;
+    }
+
+    .navbar-brand {
+      top: 100%;
+    }
+
+    .carouselContainer {
+      top: 150%;
+    }
+
+    /* .carouselContainer3,
+    .carouselContainer4,
+    .carouselContainer6,
+    .carouselContainer5,
+    .carouselContainer12,
+    .carouselContainer14 {
+      position: relative;
+      top: 200%
+    } */
+
+    /* .carouselContainer15 {
+      position: relative;
+      top: 250%;
+    } */
+
+    .navbar-list {
+      top: 100px;
+    }
+
+    .carouselContainer1{
+    /* top:15; */
+      }
+      .carouselContainer2{
+        top: 175%;
+      }
+      .carouselContainer3{
+        top:215%;
+      }
+      .carouselContainer4{
+        top:210%;
+      }
+      .carouselContainer5{
+        top:175%;
+      }
+      .carouselContainer6{
+        top:185%;
+      }
+      .carouselContainer7{
+        top:130%;
+      }
+      .carouselContainer8{
+        top:145%;
+      }
+      .carouselContainer9{
+        top:145%;
+      }
+      .carouselContainer10{
+        top:155%;
+      }
+      .carouselContainer11{
+        top:150%;
+      }
+      .carouselContainer12{
+        top:190%;
+      }
+      .carouselContainer13{
+        top:185%;
+      }
+      .carouselContainer14{
+        top:210%;
+      }
+      .carouselContainer15{
+        top:245%;
+      }
+
+      .individualDescription {
+        /* height: 50vh; */
+        font-size: 25px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    
+        display: flex;
+        margin: auto;
+    
+      }
   }
 
-  .carouselContainer{
-    top:150%;
-  }
+  @media (max-width: 1400px) and (min-width: 1100px) and (orientation:landscape) {
+    .carouselContainer {
+      position: relative;
+      /* top: 80% */
+    }
 
-  .carouselContainer3,
-  .carouselContainer4,
-  .carouselContainer6,
-  .carouselContainer5,
-  .carouselContainer12,
-  .carouselContainer14 {
-    position: relative;
-    top: 200%
-  }
+    .navbar-brand {
+      top: 65%;
+    }
 
-  .carouselContainer15{
-    position:relative;
-    top:250%;
-  }
+    .splashContainer {
+      position: relative;
+      top: 250px;
+    }
 
-  .navbar-list {
-    top:100px;
-  }
-}
+    .nav-img {
+      /* width:50px; */
+      display: none !important;
+    }
 
-@media (max-width: 1400px) and (min-width: 1100px) and (orientation:landscape) {
-  .carouselContainer {
-    position: relative;
-    /* top: 80% */
-  }
+    .nav-img {
+      display: none !important;
+    }
 
-  .navbar-brand {
-    top: 65%;
-  }
+    .nav-img-hidden {
+      display: block;
+      height: 50%;
+      width: 50%;
+    }
 
-  .splashContainer {
-    position: relative;
-    top: 250px;
-  }
+    .hiddenImageRow {
+      position: relative;
+      justify-content: center;
+      display: flex;
+      top: 35vh;
+    }
 
-  .nav-img {
-    /* width:50px; */
-    display: none !important;
-  }
+    .hiddenContainer {
+      height: 100px;
+    }
 
-  .nav-img {
-    display: none !important;
-  }
-
-  .nav-img-hidden {
-    display: block;
-    height: 50%;
-    width: 50%;
-  }
-
-  .hiddenImageRow {
-    position: relative;
-    justify-content: center;
-    display: flex;
-    top: 35vh;
-  }
-
-  .hiddenContainer {
-    height: 100px;
-  }
-
-  .navbar-list {
-    display: flex;
-    position: relative;
-    left: 15px;
-    /* top: 100px; */
-    right: 150px;
-    padding-left: 0px;
-  }
+    .navbar-list {
+      display: flex;
+      position: relative;
+      left: 15px;
+      /* top: 100px; */
+      right: 150px;
+      padding-left: 0px;
+    }
 
 
-  /* .carouselContainer1{
+    /* .carouselContainer1{
     top:15%;
       }
       .carouselContainer2{
@@ -775,4 +997,4 @@ top:15%;
       } */
 
 
-}
+  }
