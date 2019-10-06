@@ -34,6 +34,10 @@ body {
   padding-right: 25px;
 }
 
+.navbar-title:hover, .splashColLink:hover, .nav-item:hover{
+  text-decoration: none;
+ }
+
 .navbar-list {
   display: flex;
    /* position: relative; */
@@ -147,8 +151,8 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    margin-top:50%;
+    width: 100%;
+    margin-top:auto;
     margin-bottom:auto;
   }
 
@@ -176,7 +180,7 @@ footer {
     padding: 0px;
   }
 
-  .splashContainer{
+  .contactContainer{
     top:20vh;
   }
  }
