@@ -459,7 +459,7 @@ footer {
 }
 
 @media (max-width: 450px) and (max-height:800px) {
-  .carouselContainer2, .carouselContainer3, .carouselContainer4, .carouselContainer12, .carouselContainer13, .carouselContainer14, .carouselContainer15{
+  .carouselContainer2, .carouselContainer3, .carouselContainer4, .carouselContainer6, .carouselContainer12, .carouselContainer13, .carouselContainer14, .carouselContainer15{
     padding-top:130px;
   }
 }

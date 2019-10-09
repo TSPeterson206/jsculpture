@@ -279,7 +279,7 @@ footer {
 
   .aboutImageColumn2{
     width:55%;
-    height:35vh;
+    height:40vh;
     padding-left:50px;
     /* padding-right:50px; */
   }
@@ -411,7 +411,7 @@ footer {
   .aboutImageColumn2{
     width:55%;
     height:40vh;
-    padding-left:50px;
+    padding-left:20px;
     /* padding-right:50px; */
   }
 
@@ -420,7 +420,7 @@ footer {
       /* font-size: 20px; */
       color: black;
       padding-top:0px;
-      padding-left:20px;
+      padding-left:0px;
       /* background-color: grey; */
       opacity:1.0 !important;
       color:black;
@@ -435,7 +435,7 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 110%;
+    width: 100%;
     border-radius:25px;
     height:100%;
   }
@@ -564,7 +564,7 @@ footer {
       /* font-size: 20px; */
       color: black;
       padding-top:0px;
-      padding-left:20px;
+      /* padding-left:00px; */
       /* background-color: grey; */
       opacity:1.0 !important;
       color:black;
@@ -572,13 +572,13 @@ footer {
     }
 
     .aboutImageColumn1{
-      width:50%;
-      height:100vh;
+      width:45%;
+      height:400px;
     }
   
     .aboutImageColumn2{
-      width:50%;
-      height:100vh;
+      width:45%;
+      height:400px;
     }
 
     .aboutImageColumn1{
@@ -589,13 +589,13 @@ footer {
     .aboutImageColumn2{
       /* width:100%;
       height:35vh; */
-      padding-left:20px;
+      padding-left:10px;
       padding-right:0px;
     }
 
     .aboutImage {
       display: block;
-      margin-left: 20px;
+      padding-left: 10px;
       margin-right: auto;
       width: 100%;
       /* padding-left:25px; */
