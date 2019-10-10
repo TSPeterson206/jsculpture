@@ -2,21 +2,18 @@ body {
   background-color: white;
 }
 
-
 /* NAV */
 
 .nav-container {
   display: flex;
   position: absolute;
   width: 100%;
-  /* z-index: 5; */
 }
 
 .navbar-row {
   height: 25vh;
   justify-content: space-evenly;
   width: 100%;
-
 }
 
 .navbar-brand {
@@ -34,16 +31,16 @@ body {
   padding-right: 25px;
 }
 
-.navbar-title:hover, .splashColLink:hover, .nav-item:hover{
+.navbar-title:hover,
+.splashColLink:hover,
+.nav-item:hover {
   text-decoration: none;
- }
+}
 
 .navbar-list {
   display: flex;
-   /* position: relative; */
-   /* top: 100px; */
-   padding-top: 100px;
-   padding-left: 250px;
+  padding-top: 100px;
+  padding-left: 250px;
 }
 
 a {
@@ -51,45 +48,39 @@ a {
 }
 
 .nav-img {
-  float:right;
-  width:200px;
-  position:relative;
-  /* margin-left:40px; */
-  left:155px;
-  bottom:50px;
-  /* border-radius:50px; */
+  float: right;
+  width: 200px;
+  position: relative;
+  left: 155px;
+  bottom: 50px;
 }
 
 /* CONTACT MAIN */
 
-.contactContainer{
+.contactContainer {
   border-radius: 45px;
-  position:relative;
-  top:250px;
-}
-.contactRow{
-  /* height:100vh; */
-  /* align-content:center; */
+  position: relative;
+  top: 250px;
 }
 
-.contactImage{
-  border-radius:400px;
+.contactImage {
+  border-radius: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  margin-top:auto;
-  margin-bottom:auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-.emailAddress{
-  text-align:center;
-  font-size:40px;
-  color:black;
+.emailAddress {
+  text-align: center;
+  font-size: 40px;
+  color: black;
   font-family: 'Libre Baskerville', serif;
 }
-/* FOOTER */
 
+/* FOOTER */
 footer {
   height: 50px;
   position: fixed;
@@ -99,13 +90,14 @@ footer {
   background-color: darkgray;
   color: white;
   text-align: center;
-  z-index:15;
+  z-index: 15;
 }
 
 .footerItem {
   position: relative;
 }
 
+/* MOBILE - PORTRAIT */
 @media (max-width: 450px) {
   .navbar-brand {
     font-size: 35px;
@@ -128,7 +120,6 @@ footer {
     display: inline-block;
     float: none;
     padding: 0px;
-
     left: 0px;
     top: 0px;
     right: 0px;
@@ -137,8 +128,7 @@ footer {
   .nav-item {
     padding-left: 5px;
     padding-right: 5px;
-    font-size:22px;
-
+    font-size: 22px;
   }
 
   .contactContainer {
@@ -146,30 +136,30 @@ footer {
     top: 18vh;
   }
 
-  .contactImage{
-    border-radius:400px;
+  .contactImage {
+    border-radius: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    margin-top:auto;
-    margin-bottom:auto;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
-  .nav-img{
-    display:none !important;
+  .nav-img {
+    display: none !important;
   }
 
-  .emailAddress{
-    text-align:center;
-    font-size:20px;
-    color:black;
+  .emailAddress {
+    text-align: center;
+    font-size: 20px;
+    color: black;
     font-family: 'Libre Baskerville', serif;
   }
 }
 
 /* IPHONE 5 OR SMALLER PROTRAIT */
-@media (max-width: 320px) {
+@media (max-width: 370px) {
   .navbar-brand {
     font-size: 25px;
     padding-left: 0px;
@@ -180,10 +170,10 @@ footer {
     padding: 0px;
   }
 
-  .contactContainer{
-    top:20vh;
+  .contactContainer {
+    top: 20vh;
   }
- }
+}
 
 @media (max-width: 1050px) and (min-width: 451px) {
   .navbar-brand {
@@ -194,7 +184,6 @@ footer {
     padding-top: 0px;
     margin: 0 auto;
     float: none;
-    /* margin-top: 30px; */
     padding: 0px;
     width: 100%;
   }
@@ -208,17 +197,16 @@ footer {
   .navbar-list {
     position: relative;
     top: 100px;
-      /* right: 35%; */
-      text-align: center;
-      display: inline-block;
-      float: none;
-      padding: 0px;
-      left: 0px;
-      right: 0px;
-      text-align: center;
-      display: inline-block;
-      float: none;
-      padding: 0px;
+    text-align: center;
+    display: inline-block;
+    float: none;
+    padding: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    display: inline-block;
+    float: none;
+    padding: 0px;
 
   }
 
@@ -227,17 +215,12 @@ footer {
     padding-right: 15px;
   }
 
-  /* .splashContainer {
-    position: relative;
-    top: 25vh;
-  } */
-
-  .nav-img{
-    display:none !important;
+  .nav-img {
+    display: none !important;
   }
 }
 
-@media (max-width: 1050px) and (min-width: 451px) and (orientation:landscape){
+@media (max-width: 1050px) and (min-width: 451px) and (orientation:landscape) {
   .navbar-brand {
     position: relative;
     top: 40%;
@@ -246,10 +229,8 @@ footer {
     padding-top: 0px;
     margin: 0 auto;
     float: none;
-    /* margin-top: 30px; */
     padding: 0px;
     width: 100%;
-    /* flex:wrap; */
   }
 
   .navbar-row {
@@ -260,8 +241,6 @@ footer {
 
   .navbar-list {
     position: relative;
-    /* top: 80%; */
-    /* right: 35%; */
     text-align: center;
     display: inline-block;
     float: none;
@@ -279,87 +258,76 @@ footer {
     padding-left: 15px;
     padding-right: 15px;
   }
-  
+
   .carouselContainer {
-    position:relative;
-    top:80%
+    position: relative;
+    top: 80%
   }
-
-  /* .navbar-brand {
-    top: 65%;
-  }
-
-  .navbar-list {
-    top:100px;
-  } */
 
   .splashContainer {
     position: relative;
     top: 180px;
   }
-.cardContainer1{
-  position: relative;
-    top: 180px;
-}
-  .aboutContainer{
-    position: relative;
-    top: 180px;
-  }
-  .contactContainer{
+
+  .cardContainer1 {
     position: relative;
     top: 180px;
   }
 
+  .aboutContainer {
+    position: relative;
+    top: 180px;
+  }
+
+  .contactContainer {
+    position: relative;
+    top: 180px;
+  }
+
 }
 
-/* @media (max-width: 850px) and (min-width: 451px) and (orientation:landscape){
+@media (max-width: 1400px) and (min-width: 1100px) and (orientation:landscape) {
 
-  .navbar-brand {
-    top: 100%;
-  }
-
-  .navbar-list {
-    top:100px;
-  }
-} */
-
-@media (max-width: 1400px) and (min-width: 1100px) and (orientation:landscape){
-  
   .navbar-brand {
     top: 65%;
     padding-left: 100px;
   }
 
-  .nav-img{
-    display:block;
-    width:100px;
-    left:25px;
-    bottom:20px;
-    }
-
-  .nav-img-hidden{
-    display: none !important;
-     height:55%;
-   }
-
-   .hiddenImageRow{
-     position:relative;
-     justify-content:center;
-     display:flex;
-     top:35vh;
-   }
-
-  .hiddenContainer{
-    height: 20vh;
-     margin-bottom:0px;
+  .nav-img {
+    display: block;
+    width: 100px;
+    left: 25px;
+    bottom: 20px;
   }
-  
+
+  .nav-img-hidden {
+    display: none !important;
+    height: 55%;
+  }
+
+  .hiddenImageRow {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    top: 35vh;
+  }
+
+  .hiddenContainer {
+    height: 20vh;
+    margin-bottom: 0px;
+  }
+
   .navbar-list {
     display: flex;
     position: relative;
     left: 15px;
-    /* top: 100px; */
     right: 150px;
     padding-left: 0px;
+  }
+}
+
+@media (max-width: 500px) and (min-height:700px) and (max-height:870px) and (orientation:portrait) {
+  .navbar-brand {
+    font-size: 40px;
   }
 }
